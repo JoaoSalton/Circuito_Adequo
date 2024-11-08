@@ -93,11 +93,11 @@ function updateUserPosition(lat, lng, direction) {
 // Função para adicionar waypoints fixos ao mapa
 function addFixedWaypoints() {
     const fixedWaypoints = [
-        //{ lat: -26.9780025, lng: -48.7514073 },
-        //{ lat: -26.9776476, lng: -48.7513609 },
-        //{ lat: -26.9776990, lng: -48.7519480 },
-        //{ lat: -26.97707336, lng: -48.75196873 },
-        //{ lat: -26.9768806, lng: -48.7511872 }
+        { lat: -26.9780025, lng: -48.7514073 },
+        { lat: -26.9776476, lng: -48.7513609 },
+        { lat: -26.9776990, lng: -48.7519480 },
+        { lat: -26.97707336, lng: -48.75196873 },
+        { lat: -26.9768806, lng: -48.7511872 }
         { lat: -27.1342652, lng: -48.5978859 },
         { lat: -27.13440765, lng: -48.5977903 },
         { lat: -27.13431719, lng: -48.5976555 },
