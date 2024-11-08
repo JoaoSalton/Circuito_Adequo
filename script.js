@@ -93,11 +93,20 @@ function updateUserPosition(lat, lng, direction) {
 // Função para adicionar waypoints fixos ao mapa
 function addFixedWaypoints() {
     const fixedWaypoints = [
-        { lat: -26.9780025, lng: -48.7514073 },
-        { lat: -26.9776476, lng: -48.7513609 },
-        { lat: -26.9776990, lng: -48.7519480 },
-        { lat: -26.97707336, lng: -48.75196873 },
-        { lat: -26.9768806, lng: -48.7511872 }
+        //{ lat: -26.9780025, lng: -48.7514073 },
+        //{ lat: -26.9776476, lng: -48.7513609 },
+        //{ lat: -26.9776990, lng: -48.7519480 },
+        //{ lat: -26.97707336, lng: -48.75196873 },
+        //{ lat: -26.9768806, lng: -48.7511872 }
+         { lat: -27.13426529, lng: -48.59788597 },
+        { lat: -27.13440765, lng: -48.59779035 },
+        { lat: -27.13431719, lng: -48.59765558 },
+        { lat: -27.13415692, lng: -48.59757908 },
+        { lat: -27.1331607, lng: -48.5964232 },
+        { lat: -27.1341332, lng: -48.5956231 },
+        { lat: -27.1363430, lng: -48.5939888 },
+        { lat: -27.1406266, lng: -48.5895595 },
+        { lat: -27.1445982, lng: -48.5860627 }
     ];
 
     const waypointIcon = L.icon({ iconUrl: 'way.png', iconSize: [50, 50], iconAnchor: [25, 25] });
