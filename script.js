@@ -140,7 +140,7 @@ function collectWaypoints(userLat, userLng) {
         const waypointLng = waypoint.lng;
         const distance = Math.sqrt(Math.pow(userLat - waypointLat, 2) + Math.pow(userLng - waypointLng, 2)) * 111320;
 
-        if (distance < 3) {
+        if (distance < 20) {
             waypoint.marker.remove();
             tocarSomWaypoint();
             waypointCaptured = true; // Marca que um waypoint foi capturado
